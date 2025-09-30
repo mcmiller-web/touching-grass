@@ -11,10 +11,10 @@
 .body {
     background-color: rgb(47, 47, 99);
     place-items: center;
-    font-size: 100;
+    font-size: 80;
     font-family: molle;    
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
     color:aliceblue
 
@@ -28,6 +28,7 @@
     width: 2000px;
     height: 10px;
     max-width: 1200px;
+    margin-top: 20px;
 
 }
 
@@ -43,4 +44,9 @@
 .touch-grass-img img:hover {
     filter: grayscale(0%);
     transform: scale(1.05);
+}
+
+.back-button-text {
+    width: 200px;
+    height: auto;
 }
