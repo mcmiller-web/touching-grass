@@ -1,17 +1,25 @@
+@font-face {
+    font-family: molle;
+    src: url(fonts/Molle-Regular\ copy.ttf);
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(fonts/worksans-italic-vf\ copy.ttf);
+}
+
 .body {
     background-color: rgb(47, 47, 99);
     place-items: center;
-
-}
-
-.header {
-    font-size: 110;
-    font-family: ; 
+    font-size: 100;
+    font-family: molle;    
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
     color:aliceblue
+
 }
+
 
 .touch-grass-img {
     display: grid;
